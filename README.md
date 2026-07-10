@@ -2,7 +2,7 @@
 
 One AI-picked momentum trade a day. **Stocks, options, or both.** You pick the risk with one word, pick the asset mode with one word, and pick the AI brain (Claude, OpenAI, Grok, or Gemini) with one word. Everything that touches your money — sizing, stops, the daily loss breaker, the options expiry guard — is plain, deterministic Python you can read. The AI only decides *what* to buy.
 
-🎛️ **Don't want to edit code by hand?** Use the **[interactive Config Builder](docs/index.html)** — flip the toggles, copy your generated config, paste it in. (Enable GitHub Pages on this repo and it's a live webpage.)
+🎛️ **Don't want to edit code by hand?** Use the **[interactive Config Builder](https://merjua14.github.io/ai-momentum-trader/)** — flip the toggles, copy your generated config, paste it in. (Enable GitHub Pages on this repo and it's a live webpage.)
 
 ![Architecture](architecture.svg)
 
@@ -144,7 +144,7 @@ Write down the **account number** that shows `agentic_allowed: true`. That's the
 Green **Code** button → **Download ZIP** → unzip. Or:
 
 ```
-git clone <THIS_REPO_URL>
+git clone https://github.com/merjua14/ai-momentum-trader.git
 cd ai-momentum-trader
 python -m pip install -r requirements.txt
 ```
@@ -155,7 +155,7 @@ python -m pip install -r requirements.txt
 <details>
 <summary><b>Step 6 — Configure it (or use the Config Builder)</b></summary>
 
-Easiest path: open the **[Config Builder](docs/index.html)**, flip your toggles, hit copy, and paste the generated block over the top of `momentum_trader.py`.
+Easiest path: open the **[Config Builder](https://merjua14.github.io/ai-momentum-trader/)**, flip your toggles, hit copy, and paste the generated block over the top of `momentum_trader.py`.
 
 By hand, set at the top of `momentum_trader.py`:
 
