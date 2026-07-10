@@ -1,0 +1,69 @@
+<svg viewBox="0 0 960 460" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8b95ab"/>
+    </marker>
+  </defs>
+  <rect width="960" height="460" rx="14" fill="#0b0e14"/>
+  <text x="480" y="38" text-anchor="middle" fill="#e6ebf5" font-size="21" font-weight="700">How it's wired — nothing runs in the cloud</text>
+
+  <!-- Your computer -->
+  <rect x="30" y="70" width="300" height="330" rx="12" fill="#131826" stroke="#232b3d" stroke-width="2"/>
+  <text x="180" y="98" text-anchor="middle" fill="#8b95ab" font-size="13" font-weight="700">YOUR COMPUTER</text>
+
+  <rect x="55" y="115" width="250" height="60" rx="9" fill="#0f1420" stroke="#2a3a5f" stroke-width="1.5"/>
+  <text x="180" y="140" text-anchor="middle" fill="#e6ebf5" font-size="14" font-weight="600">OS scheduler</text>
+  <text x="180" y="160" text-anchor="middle" fill="#8b95ab" font-size="11.5">wakes the bot every minute</text>
+
+  <rect x="55" y="205" width="250" height="90" rx="9" fill="#16233c" stroke="#4f8cff" stroke-width="2"/>
+  <text x="180" y="231" text-anchor="middle" fill="#e6ebf5" font-size="14" font-weight="700">momentum_trader.py</text>
+  <text x="180" y="251" text-anchor="middle" fill="#8b95ab" font-size="11.5">all risk math: sizing, trailing stops,</text>
+  <text x="180" y="267" text-anchor="middle" fill="#8b95ab" font-size="11.5">loss breaker, expiry guard — deterministic</text>
+  <text x="180" y="285" text-anchor="middle" fill="#2ecc8f" font-size="11" font-weight="600">the AI never touches the math</text>
+
+  <rect x="55" y="325" width="250" height="55" rx="9" fill="#0f1420" stroke="#2a3a5f" stroke-width="1.5"/>
+  <text x="180" y="348" text-anchor="middle" fill="#e6ebf5" font-size="13.5" font-weight="600">Claude Code CLI (headless)</text>
+  <text x="180" y="366" text-anchor="middle" fill="#8b95ab" font-size="11.5">the broker bridge</text>
+
+  <line x1="180" y1="175" x2="180" y2="205" stroke="#8b95ab" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="180" y1="295" x2="180" y2="325" stroke="#8b95ab" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- AI brain -->
+  <rect x="420" y="80" width="230" height="130" rx="12" fill="#131826" stroke="#232b3d" stroke-width="2"/>
+  <text x="535" y="108" text-anchor="middle" fill="#8b95ab" font-size="13" font-weight="700">THE PICK (one judgment/day)</text>
+  <text x="535" y="136" text-anchor="middle" fill="#e6ebf5" font-size="14" font-weight="600">Claude · OpenAI · Grok · Gemini</text>
+  <text x="535" y="158" text-anchor="middle" fill="#8b95ab" font-size="11.5">which name, direction, instrument,</text>
+  <text x="535" y="174" text-anchor="middle" fill="#8b95ab" font-size="11.5">and a conviction rating — or pass</text>
+  <text x="535" y="196" text-anchor="middle" fill="#f5b942" font-size="11" font-weight="600">your toggle: pick_provider</text>
+
+  <path d="M 305 230 C 380 230 380 145 420 145" stroke="#8b95ab" stroke-width="2" fill="none" marker-end="url(#arr)"/>
+  <text x="352" y="182" fill="#8b95ab" font-size="10.5" transform="rotate(-38 352 182)">candidates + beta</text>
+
+  <!-- Robinhood MCP -->
+  <rect x="420" y="270" width="230" height="120" rx="12" fill="#12211b" stroke="#2ecc8f" stroke-width="2"/>
+  <text x="535" y="298" text-anchor="middle" fill="#8b95ab" font-size="13" font-weight="700">ROBINHOOD AGENTIC MCP</text>
+  <text x="535" y="322" text-anchor="middle" fill="#e6ebf5" font-size="12.5">account · quotes · option chains</text>
+  <text x="535" y="342" text-anchor="middle" fill="#e6ebf5" font-size="12.5">stock orders · option orders</text>
+  <text x="535" y="366" text-anchor="middle" fill="#8b95ab" font-size="11">agent.robinhood.com/mcp/trading</text>
+
+  <line x1="305" y1="352" x2="420" y2="330" stroke="#8b95ab" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Robinhood account -->
+  <rect x="730" y="270" width="200" height="120" rx="12" fill="#131826" stroke="#232b3d" stroke-width="2"/>
+  <text x="830" y="300" text-anchor="middle" fill="#8b95ab" font-size="13" font-weight="700">YOUR ROBINHOOD</text>
+  <text x="830" y="318" text-anchor="middle" fill="#8b95ab" font-size="13" font-weight="700">ACCOUNT</text>
+  <text x="830" y="344" text-anchor="middle" fill="#e6ebf5" font-size="12.5">agentic trading enabled</text>
+  <text x="830" y="364" text-anchor="middle" fill="#f5b942" font-size="11.5">+ options approval for options mode</text>
+
+  <line x1="650" y1="330" x2="730" y2="330" stroke="#8b95ab" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Telegram -->
+  <rect x="730" y="80" width="200" height="90" rx="12" fill="#131826" stroke="#232b3d" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="830" y="112" text-anchor="middle" fill="#8b95ab" font-size="13" font-weight="700">TELEGRAM (optional)</text>
+  <text x="830" y="136" text-anchor="middle" fill="#e6ebf5" font-size="12">a text on every buy,</text>
+  <text x="830" y="154" text-anchor="middle" fill="#e6ebf5" font-size="12">sell, and stop-arm</text>
+
+  <path d="M 305 218 C 560 200 640 125 730 125" stroke="#8b95ab" stroke-width="2" fill="none" stroke-dasharray="6 4" marker-end="url(#arr)"/>
+
+  <text x="480" y="440" text-anchor="middle" fill="#5c6579" font-size="11.5">Trades real money autonomously. Options can go to zero. Not financial advice — read the README warnings first.</text>
+</svg>

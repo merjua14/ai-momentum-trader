@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.momentum_trader_state.json
+.momentum_trader.log
+.env
